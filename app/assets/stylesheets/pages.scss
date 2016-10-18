@@ -1,0 +1,112 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url ('/assets/Raleway-Regular');
+}
+
+@font-face {
+  font-family: "KaushanScript-Regular";
+  src: url ('/assets/KaushanScript-Regular');
+}
+
+h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 80px;
+	color: #b71a01;
+	text-align: center;
+	margin-top: -20px;
+}
+
+.binoculars {
+	font-variant: small-caps;
+}
+
+.options {
+	transition: all 500ms ease-out 250ms;
+	background-color: lightblue;
+	width: 250px;
+	height: 300px;
+	text-align: center;
+	padding: 25px;
+	margin: 40px;
+	border-radius: 5px;
+	border-bottom: 30px solid #1d7ca5;
+	border-top: 10px solid #1d7ca5;
+
+}
+
+.options:hover {
+	background-color: #1d7ca5;
+	color: white;
+	cursor: pointer;
+}
+
+.divother {
+	background: rgba(242, 183, 138, .80);
+	border-radius: 2px;
+	width: 900px;
+	border-left: 10px solid #db7527;
+	border-bottom: 4px solid #db7527;
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+	margin: auto;
+	margin-top: -40px;
+}
+
+
+#navbar {
+	background-color: white;
+	opacity: 0.75;
+	width: 285px;
+	border-radius: 2px;
+	font-size: 20px;
+	padding: 15px;
+}
+
+#navbar a {
+	padding: 8px;
+}
+
+#navbar a:link {
+	color: black;
+	text-decoration: none;
+}
+
+#navbar a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#navbar a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+#travel_packages {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: -40px;
+}
+
+#home_page {
+	background: url("cruiseship1.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#destinations_page {
+	background: url("worldmapgrayscale.svg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#packages_page {
+	background: url("ocean1.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+
